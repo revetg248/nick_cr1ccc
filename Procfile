@@ -1,1 +1,1 @@
-bot: python tg_nick.py $PORT
+bot: python tg_nik.py $PORT
