@@ -13,7 +13,7 @@ try:
 
 	while True:
 		for name in all_names:
-			with TelegramClient('session', '972783', 'af13025a476bf0fc6c7a72402c1f1da2') as client:
+			with TelegramClient('session', 'test', '123') as client:
 				client(functions.account.UpdateProfileRequest(first_name=str(name)))
 			print('Имя изменено на ' + name)
 			time.sleep(int(pause))
